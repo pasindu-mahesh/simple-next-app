@@ -12,7 +12,7 @@ export default function Home() {
     push(`/prediction/${inputVal}`);
   };
   return (
-     <div> 
+     <div className="min-h-screen flex items-center justify-center bg-gray-100"> 
       <div>
         <h1>Enter Your Name </h1>
       </div>
